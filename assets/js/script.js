@@ -39,15 +39,15 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+        emailjs.init("79AGDALzHmbmMH-zJ");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm('gmail', 'template_4oxkl4c', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
                 alert("Form Submitted Successfully");
             }, function (error) {
-                console.log('FAILED...', error);
+                console.log('FAILED...', JSON.stringify(error));
                 alert("Form Submission Failed! Try Again");
             });
         event.preventDefault();
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "web designing", "web development"],
+    strings: ["Frontend Development", "Web Designing", "Web Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -220,10 +220,10 @@ srtop.reveal('.home .content .btn', { delay: 200 });
 
 srtop.reveal('.home .image', { delay: 400 });
 srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
+srtop.reveal('.home .github', { interval: 600 });
 srtop.reveal('.home .telegram', { interval: 600 });
 srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .twitter', { interval: 1000 });
+srtop.reveal('.home .twitter', { interval: 600 });
 srtop.reveal('.home .kaggle', { interval: 600 });
 
 /* SCROLL ABOUT */
