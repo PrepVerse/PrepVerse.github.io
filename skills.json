@@ -20,15 +20,11 @@
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
     },
     {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
-    },
-    {
-        "name": "HTML5",
+        "name": "HTML",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
     {
-        "name": "CSS3",
+        "name": "CSS",
         "icon": "https://img.icons8.com/color/48/000000/css3.png"
     },
     {
@@ -36,16 +32,12 @@
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
-    {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
     },
     {
         "name": "SQL",
-        "icon": "https://img.icons8.com/external-flat-juicy-fish/78/external-sql-coding-and-development-flat-flat-juicy-fish.png"
+        "icon": "https://img.icons8.com/external-flat-juicy-fish/48/external-sql-coding-and-development-flat-flat-juicy-fish.png"
     },
     {
         "name": "MySQL",

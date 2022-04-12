@@ -163,8 +163,8 @@ header .navbar ul li a:hover{
 
 /* work section starts */
 .work{
-  background: #48033d;
-  /* background: linear-gradient(to right, #d9fa07, #fa0707, #0ae606, #0ffef2); */
+  /* background: #48033d; */
+  background: linear-gradient(to bottom, #4007fa, #07eefa);
   margin-top: 5rem;
 }
 .work #particles-js {
@@ -177,7 +177,7 @@ header .navbar ul li a:hover{
 .work .heading::after{
   display: block;
   font-size: 2.2rem;
-  color: rgb(7, 163, 5);
+  color: crimson;
   content: "what i write";
 }
 .work h2{
